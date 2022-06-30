@@ -1,0 +1,246 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  list-style: none;
+  color: white; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+footer {
+  background-color: black;
+  font-size: 12px;
+  padding-top: .5em;
+  margin-bottom: 0; }
+  @media (min-width: 600px) {
+    footer {
+      font-size: 20px; } }
+  footer p {
+    text-align: center;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-bottom: 0; }
+  footer .footerpadre {
+    display: flex;
+    justify-content: space-around; }
+    footer .footerpadre a:hover, footer .footerpadre .iconsfooter i:hover {
+      transform: scale(1.2);
+      color: white; }
+
+.cateringpadre {
+  width: 100vw;
+  height: 110vh;
+  background-image: url("../imagenes/fotocaterignderecha.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 3rem; }
+  @media (min-width: 768px) {
+    .cateringpadre {
+      display: flex; } }
+  .cateringpadre .catefotoizquierda {
+    display: none; }
+    @media (min-width: 768px) {
+      .cateringpadre .catefotoizquierda {
+        display: block;
+        overflow: hidden;
+        height: 110vh; }
+        .cateringpadre .catefotoizquierda img {
+          width: 50vw; } }
+  .cateringpadre .catederecha {
+    text-align: center; }
+    .cateringpadre .catederecha h2 {
+      padding: 1em 0;
+      font-weight: bold;
+      text-decoration: underline; }
+    .cateringpadre .catederecha p {
+      padding: 0 2em; }
+    .cateringpadre .catederecha form {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 5.5rem; }
+      .cateringpadre .catederecha form input {
+        margin: 3px 0;
+        border-radius: 20px;
+        text-align: center;
+        background-color: white;
+        color: black; }
+        .cateringpadre .catederecha form input:hover {
+          transform: scale(1.2);
+          transition: .2s; }
+        @media (min-width: 1200px) {
+          .cateringpadre .catederecha form input {
+            margin: 3px 5rem; } }
+      .cateringpadre .catederecha form .delidatos {
+        text-decoration: underline; }
+
+.mainindex .fondopadreindex {
+  width: 100vw;
+  overflow: hidden;
+  position: relative; }
+  .mainindex .fondopadreindex img {
+    width: 100vw; }
+  .mainindex .fondopadreindex h2 {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    transform: translate(-50% -50%);
+    font-size: .7em; }
+    @media (min-width: 480px) {
+      .mainindex .fondopadreindex h2 {
+        font-size: 1em; } }
+    @media (min-width: 600px) {
+      .mainindex .fondopadreindex h2 {
+        font-size: 1.5em; } }
+    @media (min-width: 1023px) {
+      .mainindex .fondopadreindex h2 {
+        font-size: 2em; } }
+    .mainindex .fondopadreindex h2 .textonegrita {
+      font-weight: bold; }
+
+.mainnosotros {
+  background-image: url("../imagenes/fondo-menu.jpg");
+  width: 100vw;
+  text-align: center; }
+  .mainnosotros h3 {
+    text-align: center;
+    padding-top: 3rem;
+    text-decoration: underline;
+    font-size: 2rem; }
+  .mainnosotros .imagenesmenu {
+    width: 100vw;
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      .mainnosotros .imagenesmenu {
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around; } }
+    .mainnosotros .imagenesmenu img {
+      width: 90vw;
+      padding: 10px 5vw; }
+      @media (min-width: 768px) {
+        .mainnosotros .imagenesmenu img {
+          width: 35vw; } }
+  .mainnosotros a:hover {
+    transform: scale(1.2);
+    color: white; }
+
+.mainnosotros {
+  background-color: black;
+  width: 100vw; }
+  .mainnosotros video {
+    text-align: center;
+    max-width: 100vw;
+    margin: auto; }
+    @media (min-width: 768px) {
+      .mainnosotros video {
+        max-width: 80vw;
+        padding: auto; } }
+  .mainnosotros h1 {
+    text-align: center;
+    margin-top: 1.5rem; }
+  .mainnosotros p {
+    text-align: center;
+    margin: 2rem 0;
+    margin-bottom: 3rem; }
+  .mainnosotros .tam_icono_nosotros {
+    height: 100px;
+    width: 100px; }
+    @media (min-width: 768px) {
+      .mainnosotros .tam_icono_nosotros {
+        height: 75px;
+        width: 75px; } }
+    @media (min-width: 1024px) {
+      .mainnosotros .tam_icono_nosotros {
+        height: 100px;
+        width: 100px; } }
+  .mainnosotros h5 {
+    font-size: .7em; }
+    @media (min-width: 768px) {
+      .mainnosotros h5 {
+        font-size: 1em; } }
+    @media (min-width: 1024px) {
+      .mainnosotros h5 {
+        font-size: 1.5em; } }
+  .mainnosotros h6 {
+    text-align: center;
+    font-weight: bold;
+    padding: 3rem 0;
+    margin-bottom: 0;
+    text-decoration: underline; }
+    .mainnosotros h6:hover {
+      transform: scale(1.2); }
+    @media (min-width: 768px) {
+      .mainnosotros h6 {
+        font-size: 1.5em; } }
+    @media (min-width: 1024px) {
+      .mainnosotros h6 {
+        font-size: 2.5em; } }
+  .mainnosotros .containernosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100vw;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    text-align: center;
+    grid-template-areas: "ubicacion calidad" "reseñas pagos"; }
+  .mainnosotros .ubicacion {
+    grid-area: ubicacion; }
+  .mainnosotros .calidad {
+    grid-area: calidad; }
+  .mainnosotros .reseñas {
+    grid-area: reseñas; }
+  .mainnosotros .pagos {
+    grid-area: pagos; }
+  @media (min-width: 600px) {
+    .mainnosotros .containernosotros {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "ubicacion calidad reseñas pagos"; } }
+
+.contreservas {
+  display: flex; }
+  .contreservas .mapa {
+    width: 50vw;
+    padding: 10px;
+    overflow: hidden;
+    margin-right: 10px; }
+  .contreservas .reservas {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    text-align: center; }
+    .contreservas .reservas input {
+      margin: 5px 25px;
+      border-radius: 25px;
+      text-align: center;
+      margin: 10px 0px; }
+      .contreservas .reservas input:hover {
+        transform: scale(1.2);
+        transition: .8s; }
+    .contreservas .reservas .textreserva {
+      margin: 20px 0px;
+      text-decoration: underline;
+      font-size: 30px; }
+    .contreservas .reservas form .textdyh {
+      font-size: 20px; }
+    .contreservas .reservas form .entrega {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .contreservas .reservas form .retirar {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .contreservas .reservas form .botenvio {
+      padding: 3px; }

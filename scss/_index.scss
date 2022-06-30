@@ -1,0 +1,30 @@
+.mainindex{
+    .fondopadreindex{
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    img{
+        width: 100vw;
+    }
+    h2{
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        transform: translate(-50% -50%);
+        font-size: .7em;
+        @media (min-width:480px){
+            font-size: 1em;
+        }
+        @media (min-width:600px){
+            font-size: 1.5em;
+        }
+        @media (min-width:1023px){
+            font-size: 2em;
+        }
+        .textonegrita {
+            font-weight: bold;
+        }
+    }
+}}

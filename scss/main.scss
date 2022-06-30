@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    list-style: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white
+}
+
+@import "header";
+@import "footer";
+@import "catering";
+@import "index";
+@import "menu";
+@import "nosotros";
+@import "pedidos";
